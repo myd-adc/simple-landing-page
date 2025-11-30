@@ -6,7 +6,7 @@ const Body = () => {
       <div style={styles.card}>
         <img
           src={process.env.PUBLIC_URL + '/Mykola_Maliuha.JPG'}
-          alt="Mykola Maliuha"
+          alt="Mykola"
           style={styles.photo}
         />
         <div style={styles.textContainer}>
