@@ -4,9 +4,13 @@ const Body = () => {
   return (
     <main style={styles.body}>
       <div style={styles.card}>
-        <img src={"/avatar-default.png"} alt="John Doe" style={styles.photo} />
+        <img
+          src={process.env.PUBLIC_URL + '/Mykola_Maliuha.JPG'}
+          alt="Mykola Maliuha"
+          style={styles.photo}
+        />
         <div style={styles.textContainer}>
-          <h2 style={styles.name}>John Doe</h2>
+          <h2 style={styles.name}>Mykola Maliuha</h2>
           <p style={styles.position}>Software engineer</p>
         </div>
       </div>
