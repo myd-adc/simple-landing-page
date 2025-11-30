@@ -14,18 +14,6 @@ const Body = () => {
           <p style={styles.position}>Software engineer</p>
         </div>
       </div>
-
-      <div style={styles.card}>
-        <img
-          src={process.env.PUBLIC_URL + '/Viktoriia_Komarnytska.png'}
-          alt="Viktoriia Komarnytska"
-          style={styles.photo}
-        />
-        <div style={styles.textContainer}>
-          <h2 style={styles.name}>Viktoriia Komarnytska</h2>
-          <p style={styles.position}>UI/UX Designer</p>
-        </div>
-      </div>
     </main>
   );
 };
