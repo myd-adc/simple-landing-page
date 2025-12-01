@@ -5,7 +5,7 @@ const Body = () => {
     <main style={styles.body}>
       <div style={styles.card}>
         <img
-          src={process.env.PUBLIC_URL + '/Mykola_Maliuha.JPG'}
+          src={process.env.PUBLIC_URL + '/Mykola_Maliuha_Software_engineer.JPG'}
           alt="Mykola Maliuha"
           style={styles.photo}
         />
