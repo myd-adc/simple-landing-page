@@ -26,6 +26,7 @@ const Body = () => {
           <p style={styles.position}>UI/UX Designer</p>
         </div>
       </div>
+
       <div style={styles.card}>
         <img
           src={process.env.PUBLIC_URL + '/Natalia_Dumanska.jpg'}
@@ -37,6 +38,19 @@ const Body = () => {
           <p style={styles.position}>Software engineer</p>
         </div>
       </div>
+
+      <div style={styles.card}>
+        <img
+          src={process.env.PUBLIC_URL + '/roman.jpg'}
+          alt="Roman"
+          style={styles.photo}
+        />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Roman Melnyk</h2>
+          <p style={styles.position}>QA Engineer</p>
+        </div>
+      </div>
+
     </main>
   );
 };
@@ -75,7 +89,7 @@ const styles = {
   },
   position: {
     fontSize: '0.9em',
-    color: '#6a0dad', // Same purple color as header
+    color: '#6a0dad',
     margin: '0.5em 0 0 0',
   },
 };
