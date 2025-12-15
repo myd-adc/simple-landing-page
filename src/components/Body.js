@@ -89,7 +89,7 @@ const styles = {
   },
   position: {
     fontSize: '0.9em',
-    color: '#6a0dad',
+    color: '#d819faff',
     margin: '0.5em 0 0 0',
   },
 };
